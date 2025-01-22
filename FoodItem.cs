@@ -7,6 +7,7 @@ public class FoodItem
     public int Quantity { get; set; }
     public DateTime ExpirationDate { get; set; }
 
+    // constructor
     public FoodItem(string name, string category, int quantity, DateTime expirationDate)
     {
         Name = name;
